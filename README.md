@@ -1,2 +1,2 @@
-# springboot-webservice
-springboot2 study
+# springboot2-data-jpa
+springboot2-data-jpa
