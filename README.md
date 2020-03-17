@@ -1,7 +1,7 @@
-# SpringBoot Data Redis Example
+# SpringBoot2 Data JPA Example
 
 This project is an example for a study by using Springboot2, JPA, Gradle, Java8.<br>
-Springboot2, JPA, Gradle, Java8╦╕ юл©Кго©╘ ╦╦╣Г ╟Ёюн ╫╨ем╣П©К га╥на╖ф╝ ют╢о╢ы.
+Springboot2, JPA, Gradle, Java8К╔╪ Л²╢Л ╘М∙≤Л≈╛ К╖▄К⌠═ Й╟°Л²╦ Л┼╓М└╟К■■Л ╘ М■└К║°Л═²М┼╦ Л·┘К▀┬К▀╓.
 
 # Technologies
 * [spring-boot 2](https://spring.io/projects/spring-boot)
