@@ -16,14 +16,14 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 @Service
 public class PostsService {
- private final PostsRepository postsRepository;
+    private final PostsRepository postsRepository;
 
     @Transactional(readOnly = true)
     public List<PostsListResponseDto> findAllDesc() {
         return postsRepository.findAllDesc().stream()
                               .map(PostsListResponseDto::new)
                               .collect(Collectors.toList());
- }
+    }
 
     @Transactional(readOnly = true)
     public PostsResponseDto findById(Long id) {
@@ -31,7 +31,7 @@ public class PostsService {
                                   .orElseThrow(() -> new IllegalArgumentException("There is no post. id=" + id));
 
      return new PostsResponseDto(posts);
- }
+    }
 
     @Transactional
     public Long save(PostsSaveRequestDto requestDto) {

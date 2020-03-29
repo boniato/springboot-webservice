@@ -1,4 +1,4 @@
-package com.jojoldu.book.springboot.domain.posts;
+package com.boniato.sample.domain.posts;
 
 import org.junit.After;
 import org.junit.Test;
@@ -17,7 +17,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class PostsRepositoryTest {
 
     @Autowired
-    PostsRepository postsRepository;
+    private PostsRepository postsRepository;
 
     @After
     public void cleanup() {
