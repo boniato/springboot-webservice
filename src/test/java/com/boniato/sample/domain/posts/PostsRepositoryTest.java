@@ -33,6 +33,7 @@ public class PostsRepositoryTest {
         postsRepository.save(Posts.builder()
                                   .title(title)
                                   .content(content)
+                                  .author("ahh.reum.lee@gmail.com")
                                   .build());
 
         //when
@@ -51,6 +52,7 @@ public class PostsRepositoryTest {
         postsRepository.save(Posts.builder()
                                   .title("title")
                                   .content("content")
+                                  .author("author")
                                   .build());
         //when
         List<Posts> postsList = postsRepository.findAll();

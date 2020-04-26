@@ -19,6 +19,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @RestController
 public class PostsApiController {
+
     private final PostsService postsService;
 
     @GetMapping("/api/v1/posts/list")
